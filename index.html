@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>index</title>
+  <script>    !function (n) { var e = n.document, t = e.documentElement, i = 375, d = i / 100, o = "orientationchange" in n ? "orientationchange" : "resize", a = function () { var n = t.clientWidth || 320; n > 720 && (n = 720); t.style.fontSize = n / d + "px" }; e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener("DOMContentLoaded", a, !1)) }(window);</script>
+  <link rel="stylesheet" href="./swiper/swiper2.7.6.css" />
+  <link rel="stylesheet" href="./css/index_.css" />
+  <style> html, body, #main {            width: 100%;            height: 100%;        }</style>
+ </head>
+ <body>
+  <div id="audio_btn">
+   <img src="./imgs/musicico.png" />
+  </div>
+  <audio id="sceneaudio" src="https://res.zhangu365.com/syspic/201712/mp3/cbf72a673d8b41f3b7beb26041842679.mp3" loop=""></audio>
+  <div id="arrow" class="sliceUp animated">
+   <img src="./imgs/arrow.png" alt="" />
+  </div>
+  <div id="loading">
+   <div class="loading-wrap">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+   </div>
+  </div>
+  <main id="main" class="swiper-container" style="display: none">
+   <div class="swiper-wrapper">
+    <div class="swiper-slide">
+     <ul class="section-loading"></ul>
+     <ul id="page0" data-page="page0" class="animated">
+      <li class="animate-item animated"><img class="bg_left" src="./imgs/bg_left.png" /></li>
+      <li class="animate-item animated"><img class="bg_right" src="./imgs/bg_right.png" /></li>
+      <li class="animate-item animated"><img src="./imgs/bg_2018.png" /></li>
+      <li class="animate-item animated"><p class="el-text">年度总结</p><p class="el-text">工作计划</p></li>
+      <li class="animate-item animated"><img src="./imgs/bg_user.png" /></li>
+      <li class="animate-item animated"><span>汇报人：xxx</span></li>
+      <li class="animate-item animated"><img src="./imgs/bg_company.png" /></li>
+      <li class="animate-item animated"><span>北京中传数广科技有限公司</span></li>
+     </ul>
+    </div>
+    <div class="swiper-slide">
+     <ul class="section-loading"></ul>
+     <ul id="page1" data-page="page1" class="animate-item animated">
+      <li class="animate-item animated"><img class="bg_left" src="./imgs/bg_2_left.png" /></li>
+      <li class="animate-item animated"><img class="bg_right" src="./imgs/bg_2_right.png" /></li>
+      <li class="animate-item animated"><h4 class="el-text">目录</h4></li>
+      <li class="animate-item animated"></li>
+      <li class="animate-item animated"><span class="content">CONTENT</span></li>
+      <li class="animate-item animated catalogue">01&nbsp;&nbsp;公司简介概括</li>
+      <li class="animate-item animated catalogue">02&nbsp;&nbsp;年度工作总量</li>
+      <li class="animate-item animated catalogue">03&nbsp;&nbsp;最优个人统计</li>
+      <li class="animate-item animated catalogue">04&nbsp;&nbsp;公司员工表彰</li>
+      <li class="animate-item animated catalogue">05&nbsp;&nbsp;明年工作计划</li>
+     </ul>
+    </div>
+    <div class="swiper-slide">
+     <ul class="section-loading"></ul>
+     <ul id="page2" data-page="page2" class="animate-item animated">
+      <li class="animate-item animated"><img class="bg_left" src="./imgs/bg_2_left.png" /></li>
+      <li class="animate-item animated"><img class="bg_right" src="./imgs/bg_2_right.png" /></li>
+      <li class="animate-item animated"><h4 class="el-text">-&nbsp;|&nbsp;公司简介&nbsp;|&nbsp;-</h4></li>
+      <li class="animate-item animated"></li>
+      <li class="animate-item animated"><span class="content">Company Profile</span></li>
+      <li class="animate-item animated">China EPG成立于2003年，公司拥有畅通安全的数据传输通道、完善的编辑团队以及专业的维护人员。</li>
+      <li class="animate-item animated">ChinaEPG率先在国内为内容运营商、网络运营商提供“音视频数字同步信息”解决方案。目前China EPG搭建的传输通道已经到达270多家网络运营商系统前端，覆盖数字电视用户超过8千万。</li>
+     </ul>
+    </div>
+    <div class="swiper-slide">
+     <ul class="section-loading"></ul>
+     <ul id="page3" data-page="page3" class="animate-item animated">
+      <li class="animate-item animated"><img class="bg_left" src="./imgs/bg_2_left.png" /></li>
+      <li class="animate-item animated"><img class="bg_right" src="./imgs/bg_2_right.png" /></li>
+      <li class="animate-item animated"><h4 class="el-text">-&nbsp;|&nbsp;最优个人统计&nbsp;|&nbsp;-</h4></li>
+      <li class="animate-item animated"></li>
+      <li class="animate-item animated"><span class="content">Completion</span></li>
+      <li class="animate-item animated"><img src="./imgs/task.png" /></li>
+      <li class="animate-item animated">总量</li>
+      <li class="animate-item animated"><p>年度节目单总量：xxx</p></li>
+      <li class="animate-item animated"><img src="./imgs/task.png" /></li>
+      <li class="animate-item animated">总耗时</li>
+      <li class="animate-item animated"><p>年度节目单耗时：xxx</p></li>
+      <li class="animate-item animated"><img src="./imgs/task.png" /></li>
+      <li class="animate-item animated">平均量</li>
+      <li class="animate-item animated"><p>人均处理节目单：xxx</p></li>
+      <li class="animate-item animated"><img src="./imgs/bg_bottom.png" /></li>
+     </ul>
+    </div>
+    <div class="swiper-slide">
+     <ul class="section-loading"></ul>
+     <ul id="page4" data-page="page4" class="animate-item animated">
+      <li class="animate-item animated"><img class="bg_left" src="./imgs/bg_2_left.png" /></li>
+      <li class="animate-item animated"><img class="bg_right" src="./imgs/bg_2_right.png" /></li>
+      <li class="animate-item animated"><h4 class="el-text">-&nbsp;|&nbsp;年度工作总量&nbsp;|&nbsp;-</h4></li>
+      <li class="animate-item animated"></li>
+      <li class="animate-item animated"><span class="content">Completion</span></li>
+      <li class="animate-item animated"><img src="./imgs/task.png" /></li>
+      <li class="animate-item animated">最多</li>
+      <li class="animate-item animated"><p>节目单处理最多：xxx</p></li>
+      <li class="animate-item animated"><img src="./imgs/task.png" /></li>
+      <li class="animate-item animated">最耗时</li>
+      <li class="animate-item animated"><p>处理时长最长：xxx</p></li>
+      <li class="animate-item animated"><img src="./imgs/task.png" /></li>
+      <li class="animate-item animated">平均量</li>
+      <li class="animate-item animated"><p>人均处理时长最多：xxx</p></li>
+      <li class="animate-item animated"><img src="./imgs/bg_bottom.png" /></li>
+     </ul>
+    </div>
+    <div class="swiper-slide">
+     <ul class="section-loading"></ul>
+     <ul id="page5" data-page="page5" class="animate-item animated">
+      <li class="animate-item animated"><img class="bg_left" src="./imgs/bg_2_left.png" /></li>
+      <li class="animate-item animated"><img class="bg_right" src="./imgs/bg_2_right.png" /></li>
+      <li class="animate-item animated"><h4 class="el-text">-&nbsp;|&nbsp;数据统计&nbsp;|&nbsp;-</h4></li>
+      <li class="animate-item animated"></li>
+      <li class="animate-item animated"><span>Statistics</span></li>
+      <li class="animate-item animated"><img src="./imgs/task.png" /></li>
+      <li class="animate-item animated">统计项一</li>
+      <li class="animate-item animated"><p class="content">统计项一的内容统计项一的内容统计项一的内容统计项一的内容</p></li>
+      <li class="animate-item animated"><img src="./imgs/task.png" /></li>
+      <li class="animate-item animated">统计项二</li>
+      <li class="animate-item animated"><p class="content">统计项一的内容统计项一的内容统计项一的内容统计项一的内容</p></li>
+      <li class="animate-item animated"><img src="./imgs/task.png" /></li>
+      <li class="animate-item animated">统计项三</li>
+      <li class="animate-item animated"><p class="content">统计项一的内容统计项一的内容统计项一的内容统计项一的内容</p></li>
+     </ul>
+    </div>
+    <div class="swiper-slide">
+     <ul class="section-loading"></ul>
+     <ul id="page6" data-page="page6" class="animate-item animated">
+      <li class="animate-item animated"><img class="bg_left" src="./imgs/bg_2_left.png" /></li>
+      <li class="animate-item animated"><img class="bg_right" src="./imgs/bg_2_right.png" /></li>
+      <li class="animate-item animated"><h4 class="el-text">-&nbsp;|&nbsp;图表统计&nbsp;|&nbsp;-</h4></li>
+      <li class="animate-item animated"></li>
+      <li class="animate-item animated"><span>Statistics</span></li>
+      <li class="animate-item animated">
+       <div class="echart-example1"></div></li>
+     </ul>
+    </div>
+    <div class="swiper-slide">
+     <ul class="section-loading"></ul>
+     <ul id="page7" data-page="page7" class="animate-item animated">
+      <li class="animate-item animated"><img class="bg_left" src="./imgs/bg_2_left.png" /></li>
+      <li class="animate-item animated"><img class="bg_right" src="./imgs/bg_2_right.png" /></li>
+      <li class="animate-item animated"><h4 class="el-text">-&nbsp;|&nbsp;图表统计&nbsp;|&nbsp;-</h4></li>
+      <li class="animate-item animated"></li>
+      <li class="animate-item animated"><span>Statistics</span></li>
+      <li class="animate-item animated">
+       <div class="echart-example2"></div></li>
+     </ul>
+    </div>
+   </div>
+  </main>
+  <script src="./swiper/zepto.min.js"></script>
+  <script src="./swiper/swiper.2.7.6.min.js"></script>
+  <script src="./js/echarts.common.min.js"></script>
+  <script src="./js/index_.js"></script>
+ </body>
+</html>
